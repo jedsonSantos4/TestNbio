@@ -1,0 +1,15 @@
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\nebio\Models\bin\Debug\Models.dll
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\nebio\Models\bin\Debug\Models.pdb
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\nebio\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\nebio\Models\obj\Debug\Models.MSG.MSG.resources
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\nebio\Models\obj\Debug\Models.csproj.GenerateResource.cache
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\nebio\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\nebio\Models\obj\Debug\Models.dll
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\nebio\Models\obj\Debug\Models.pdb
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\Models\bin\Debug\Models.dll
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\Models\bin\Debug\Models.pdb
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\Models\obj\Debug\Models.MSG.MSG.resources
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\Models\obj\Debug\Models.csproj.GenerateResource.cache
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\Models\obj\Debug\Models.dll
+C:\Users\36078973878.CMDO\Documents\Teste\nbio\Models\obj\Debug\Models.pdb

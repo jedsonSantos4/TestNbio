@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oEr1GFtjxuDK76Se+WZ6EQOBM/6umimP93oGS0iKic4alE7RiUJOjvn5reA5diIKE2S/gehq0uTC8+c84N/DjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\36078973878.CMDO\\Documents\\Teste\\nbio\\Businnes\\Businnes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\36078973878.CMDO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\36078973878.CMDO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

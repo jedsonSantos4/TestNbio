@@ -1,0 +1,20 @@
+﻿@model List<Models.Ofx.OfxDataModel>
+
+
+@{
+    foreach (var item in Model)
+    {
+    <ul class="list-group">
+        <li class="list-group-item disabled">Data - @item.DateCtrl.ToShortDateString()</li>
+        @foreach (var ofx in item.Ofxs)
+        {
+
+    <li class="list-group-item">TRNAMT - @ofx.TRNAMT</li>
+            <li class="list-group-item">TRNTYPE - @ofx.TRNTYPE</li>
+            <li class="list-group-item">MEMO - @ofx.MEMO</li>
+            <li class="list-group-item"> DTPOSTED -  @ofx.DTPOSTED</li>
+        }
+
+    </ul>
+    }
+}

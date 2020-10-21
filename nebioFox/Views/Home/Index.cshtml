@@ -1,0 +1,65 @@
+﻿<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+        $("#btnSelect").click(function () {
+
+          
+
+            var $input = $('<input type="file" />');
+            $input.change(function () {
+                
+                
+                $.ajax({
+                    //url: baseUrl + '/ConfigRegime/PMLogado',
+                    url: '../Home/OpenFileCtrl',
+                    type: "POST",
+                    cache: false,
+                    async: true,
+                    data: {
+                        teste:  $(this).val()
+                    },
+                }).done(function (res) {
+                    
+                    
+                  
+                    if (res.includes("Erro")) {
+                        Swal.fire({
+                            title: "",
+                            text: res,
+                            icon: 'error',
+                            confirmButtonColor: '#3085d6',
+                            confirmButtonText: 'OK',
+                            customClass: 'swal-wide',
+                        }).then((result) => {
+
+                        });
+                    } else {
+                      
+
+                        $("#preencher").empty();
+                        $("#preencher").append(res);
+
+                    }
+
+
+                });
+
+            });
+            $input.trigger('click');
+        });
+
+
+   
+    });
+</script>
+
+
+
+<div class="col-lg-6 col-md-6 col-sm-6">
+    <button class="button-analyse" id="btnSelect">select file</button>
+</div>
+
+
+<div id="preencher"></div>
